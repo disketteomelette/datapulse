@@ -5,7 +5,7 @@ Every second, a log string is generated (and added to session log) with the foll
 
 [seconds];[mouse position];[click count];[keys pressed];[scroll position];[inactivity status];[page visibility];[user agent];[screen dimensions];[connection type];[downlink speed];[user language];[hour and minute];[window dimensions];[color depth];[cookies enabled];[device memory];[current URL];[online status];[device orientation];[zoom level];[available screen dimensions];[OS CPU];[battery level];[history length];[UTC time];[user languages];[dark mode preference];[window dimensions];[user IP];[FPS];[geo location];[high contrast mode];[touch points];[pointer enabled];[clicked element ID];MD5:[hash MD5]
 
-# Breakdown of Data Collected
+#  Data Collected
 
     seconds: The number of seconds since the script started.
     mouse position: The x and y coordinates of the mouse pointer at the moment of the event.
