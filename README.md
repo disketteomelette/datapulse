@@ -3,7 +3,7 @@ Databeat is a programming exercise in JS/PHP that demonstrates how easy it is to
 
 Every second, a log string is generated (and added to session log) with the following structure:
 
-[seconds];[mouse position];[click count];[keys pressed];[scroll position];[inactivity status];[page visibility];[user agent];[screen dimensions];[connection type];[downlink speed];[user language];[hour and minute];[window dimensions];[color depth];[cookies enabled];[device memory];[current URL];[online status];[device orientation];[zoom level];[available screen dimensions];[OS CPU];[battery level];[history length];[UTC time];[user languages];[dark mode preference];[window dimensions];[user IP];[FPS];[geo location];[high contrast mode];[touch points];[pointer enabled];[clicked element ID];MD5:[hash MD5]
+    [seconds];[mouse position];[click count];[keys pressed];[scroll position];[inactivity status];[page visibility];[user agent];[screen dimensions];[connection type];[downlink speed];[user language];[hour and minute];[window dimensions];[color depth];[cookies enabled];[device memory];[current URL];[online status];[device orientation];[zoom level];[available screen dimensions];[OS CPU];[battery level];[history length];[UTC time];[user languages];[dark mode preference];[window dimensions];[user IP];[FPS];[geo location];[high contrast mode];[touch points];[pointer enabled];[clicked element ID];MD5:[hash MD5]
 
 #  Data Collected
 
