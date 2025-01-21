@@ -1,20 +1,11 @@
 # datapulse
-DataPulse is a JavaScript script that discreetly collects user data and sends it to a PHP script to store it in an organized log system.
-This project demonstrates how much data can be collected from a user visiting a webpage without any direct interaction or consent. Through a combination of JavaScript and PHP scripts, this project collects a wide range of information about the user's environment and behavior on the page, sending it to a server periodically.
+Databeat is a programming exercise in JS/PHP that demonstrates how easy it is to gather user information without requiring their explicit permission. The data collected via JavaScript is sent every second to a PHP backend, which stores it in a file structure based on an MD5 hash and the user's IP address (located in the /logs folder). 
 
-This is a programming exercise designed to showcase how much information can be gathered by a website without explicit user permission or action.
-Functionality
-
-The JavaScript script captures various real-time data about the user's browser environment and interactions. This data is sent to a PHP script every second, which logs it to a file.
-
-The data includes information about device configuration, user behavior, and browser details. Additionally, the ID of the HTML element clicked by the user is recorded, providing insights into which parts of the page are being interacted with.
-Data Structure
-
-Every second, a log string is generated with the following structure:
+Every second, a log string is generated (and added to session log) with the following structure:
 
 [seconds];[mouse position];[click count];[keys pressed];[scroll position];[inactivity status];[page visibility];[user agent];[screen dimensions];[connection type];[downlink speed];[user language];[hour and minute];[window dimensions];[color depth];[cookies enabled];[device memory];[current URL];[online status];[device orientation];[zoom level];[available screen dimensions];[OS CPU];[battery level];[history length];[UTC time];[user languages];[dark mode preference];[window dimensions];[user IP];[FPS];[geo location];[high contrast mode];[touch points];[pointer enabled];[clicked element ID];MD5:[hash MD5]
 
-Breakdown of Data Collected
+# Breakdown of Data Collected
 
     seconds: The number of seconds since the script started.
     mouse position: The x and y coordinates of the mouse pointer at the moment of the event.
@@ -53,4 +44,12 @@ Breakdown of Data Collected
     pointer enabled: Whether pointer events are supported on the device.
     clicked element ID: The ID of the HTML element the user clicked (if it exists).
 
-heheh
+# Usage
+1. Place both scripts on your host and call the script using <script src="analytics.global.js"></script>.
+2. Grant write permissions to the /logs folder where the PHP script is located.
+3. ?????
+4. Profit!
+
+# Legal
+This script is provided "as is" for educational and demonstrational purposes only. The author assumes no responsibility or liability for any misuse, unauthorized application, or consequences resulting from the use of this script. By using this script, you agree that you are solely responsible for ensuring compliance with all applicable laws, regulations, and ethical standards in your jurisdiction. Use at your own risk.
+This script is licensed under the Creative Commons Attribution. It includes a minified version of the MD5 function for JS, under the MIT license.
