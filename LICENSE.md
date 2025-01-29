@@ -1,4 +1,4 @@
-MIT Trackback Attribution License (MIT-TAL)
+# MIT Trackback Attribution License (MIT-TAL)
 Copyright (c) 2025. J.C. Rueda. - github.com/disketteomelette
 
 Permission is hereby granted, free of charge, to use, copy, modify, distribute, and sell copies of this software, with the following conditions:
