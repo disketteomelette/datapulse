@@ -52,4 +52,4 @@ Every second, a log string is generated (and added to session log) with the foll
 
 # Legal
 This script is provided "as is" for educational and demonstrational purposes only. The author assumes no responsibility or liability for any misuse, unauthorized application, or consequences resulting from the use of this script. By using this script, you agree that you are solely responsible for ensuring compliance with all applicable laws, regulations, and ethical standards in your jurisdiction. Use at your own risk.
-This script is licensed under the Creative Commons Attribution. It includes a minified version of the MD5 function for JS, under the MIT license.
+This script is licensed under the MIT-TAL (see LICENSE for more info). It includes a minified version of the MD5 function for JS, under the MIT license.
