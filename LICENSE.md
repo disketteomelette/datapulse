@@ -1,6 +1,6 @@
 # MIT Trackback Attribution License (MIT-TAL)
 
-Datapulse v. 0.1 – Copyright (c) 2025. J.C. Rueda. – github.com/disketteomelette
+Datapulse v. 0.1 – 2025. J.C. Rueda. – github.com/disketteomelette
 
 Permission is hereby granted, free of charge, to use, copy, modify, distribute, and sell copies of this product, subject to the following conditions:
 
